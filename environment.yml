@@ -1,8 +1,9 @@
-name: pyspextool
+name: pyspextool_3.11
 channels:
   - http://ssb.stsci.edu/astroconda
   - conda-forge
 dependencies:
+  - python=3.11
   - astropy
   - astroquery
   - matplotlib
@@ -10,5 +11,7 @@ dependencies:
   - pandas
   - pip
   - scipy
+  - specutils
+  - dust_extinction
   - pip:
     - git-lfs
